@@ -1,0 +1,59 @@
+@tailwind  base;
+@tailwind components;
+@tailwind utilities;
+
+.loader {
+  width: 12px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  background: #feee41;
+  box-shadow:
+    19px 0px 0 #ff6c98,
+    38px 0px 0 #feee41,
+    0px 19px 0 #ff6c98,
+    19px 19px 0 #feee41,
+    38px 19px 0 #ff6c98,
+    0px 38px 0 #feee41,
+    19px 38px 0 #ff6c98,
+    38px 38px 0 #feee41;
+  transform: translate(-19px, -19px);
+  animation: l26 2s infinite linear;
+}
+
+@keyframes l26 {
+  12.5% {
+    box-shadow:
+      19px 0px 0 #feee41,
+      38px 0px 0 #ff6c98,
+      0px 19px 0 #feee41,
+      19px 19px 0 #ff6c98,
+      38px 19px 0 #feee41,
+      0px 38px 0 #ff6c98,
+      19px 38px 0 #feee41,
+      38px 38px 0 #ff6c98;
+  }
+  25% {
+    box-shadow:
+      19px 0px 0 #ff6c98,
+      38px 0px 0 #feee41,
+      0px 19px 0 #ff6c98,
+      19px 19px 0 #feee41,
+      38px 19px 0 #ff6c98,
+      0px 38px 0 #feee41,
+      19px 38px 0 #ff6c98,
+      38px 38px 0 #feee41;
+  }
+  50% {
+    box-shadow:
+      19px 0px 0 #feee41,
+      38px 0px 0 #ff6c98,
+      0px 19px 0 #feee41,
+      19px 19px 0 #ff6c98,
+      38px 19px 0 #feee41,
+      0px 38px 0 #ff6c98,
+      19px 38px 0 #feee41,
+      38px 38px 0 #ff6c98;
+  }
+}
+ 
