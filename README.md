@@ -1,6 +1,6 @@
 # Researcher Discovery
 
-[![CI](https://github.com/YJush/researcher-discovery/actions/workflows/ci.yml/badge.svg)](https://github.com/YJush/researcher-discovery/actions/workflows/ci.yml)
+[![CI](https://github.com/industry-contents/researcher-discovery/actions/workflows/ci.yml/badge.svg)](https://github.com/industry-contents/researcher-discovery/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-B8390D.svg)](LICENSE)
 
 Find researchers by topic, institution or name across OpenAlex, Scopus and PubMed (NIH). Review affiliations, publication counts, citations and ORCID identifiers in one interface, then export the shortlist to CSV.
@@ -31,7 +31,7 @@ React 18, Vite, Tailwind CSS, Vercel serverless functions.
 ## Getting started
 
 ```sh
-git clone https://github.com/YJush/researcher-discovery.git
+git clone https://github.com/industry-contents/researcher-discovery.git
 cd researcher-discovery
 npm ci
 npm run dev
